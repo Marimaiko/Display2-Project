@@ -1,0 +1,53 @@
+.BankListPage {
+  background: #E5E5E5;
+}
+
+.BankListContent {
+  padding-left: 3rem;
+}
+
+.BankList {
+  color: #474F63;
+  padding: 2rem 4rem;
+}
+
+.BankListTitle {
+  display: flex;
+  width: 100%;
+  padding: 0 2rem;
+
+  h3 {
+    padding: 1rem;
+    color: #B3B9C9;
+  }
+}
+
+.BankNameSearch {
+  width: 240px;
+  height: 44px;
+  margin-left: auto;
+  border: 1px solid #CED4DE;
+  background: #ffffff;
+
+  display: flex;
+  justify-content: space-around;
+
+  input {
+    border: none;
+
+    &:last-child {
+      width: 1rem;
+    }
+  }
+}
+
+.BanksCard { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .BankListTitle {
+    display: block;
+  }
+}
